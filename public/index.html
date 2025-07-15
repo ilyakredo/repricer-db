@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>RepricerV1 База Данных</title>
+    <style>
+    :root {
+        --primary: #3c82f6;
+        --accent: #20c997;
+        --bg: #121826;
+        --fg: #f8fafc;
+        --card-bg: rgba(255, 255, 255, 0.05);
+        --border: rgba(255, 255, 255, 0.1);
+        --hover: rgba(255, 255, 255, 0.15);
+    }
+
+    * {
+        
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-image: radial-gradient(circle at 20% 30%, #1f2937, #111827);
+    }
+
+    .container {
+        width: 100%;
+        max-width: 750px;
+        background: var(--card-bg);
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        border: 1px solid var(--border);
+        backdrop-filter: blur(12px);
+        animation: fadeIn 0.8s ease-out;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 28px;
+        background: linear-gradient(to right, var(--primary), var(--accent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: glowText 3s infinite alternate;
+    }
+
+    label {
+        display: block;
+        margin-top: 20px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #cbd5e1;
+    }
+
+    input[type="file"] {
+        background-color: #1e293b;
+        color: var(--fg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 8px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        display: inline-block;
+        background: linear-gradient(135deg, var(--primary), var(--accent));
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        margin: 10px 10px 20px 0;
+        border-radius: 12px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 10px rgba(32, 201, 151, 0.3);
+    }
+
+    button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 14px rgba(32, 201, 151, 0.7);
+    }
+
+    #status {
+        margin-top: 25px;
+        padding: 15px;
+        border-left: 4px solid var(--primary);
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        font-weight: 500;
+        animation: fadeIn 0.6s ease-in;
+    }
+
+    .toast {
+        position: fixed;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 300px;
+        max-width: 90%;
+        background-color: #333;
+        color: white;
+        padding: 14px 24px;
+        border-radius: 8px;
+        font-size: 16px;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.5s ease, bottom 0.5s ease;
+        z-index: 9999;
+        text-align: center;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .toast.show {
+        opacity: 1;
+        bottom: 50px;
+    }
+
+    .toast.success {
+        background-color: #28a745;
+    }
+
+    .toast.error {
+        background-color: #dc3545;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes glowText {
+        0% { text-shadow: 0 0 5px var(--primary); }
+        100% { text-shadow: 0 0 15px var(--accent); }
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RepricerV1 База Данных</h1>
+
+        <label>Загрузить данные (Excel):</label>
+        <input type="file" id="uploadData" />
+        <button onclick="uploadData()">📥 Загрузить</button>
+
+        <label>Загрузить ID для удаления:</label>
+        <input type="file" id="deleteData" />
+        <button onclick="deleteData()">🗑️ Удалить</button>
+
+        <label>Скачать текущую базу:</label>
+        <button onclick="downloadDb()">📤 Скачать Excel</button>
+
+        <div id="status">⏳ Загружаем количество записей...</div>
+
+        <label>📘 Скачать шаблоны:</label>
+        <button onclick="downloadSample('upload')">⬇️ Шаблон загрузки</button>
+        <button onclick="downloadSample('delete')">⬇️ Шаблон удаления</button>
+    </div>
+    <div id="toast" class="toast"></div>
+<script>
+    const API = 'http://localhost:3000';
+
+    async function uploadData() {
+        if (!confirm('Вы уверены, что хотите загрузить данные?')) return;
+        const file = document.getElementById('uploadData').files[0];
+        if (!file) return alert('Выберите файл для загрузки');
+
+        const form = new FormData();
+        form.append('file', file);
+
+        try {
+            const res = await fetch(API + '/upload-data', { method: 'POST', body: form });
+            const json = await res.json();
+            document.getElementById('status').innerText = '✅ Загружено. Всего записей: ' + json.total;
+            showToast(json.message || '✅ Загружено в GitHub', 'success');
+            document.getElementById('uploadData').files[0] = "";
+        } catch (err) {
+            document.getElementById('status').innerText = '❌ Ошибка загрузки: ' + err.message;
+            showToast('❌ Ошибка загрузки: ' + err.message, 'error');
+            document.getElementById('uploadData').files[0] = "";
+        }
+    }
+
+    function downloadSample(type) {
+        const url = type === 'upload' ? '/sample-upload' : '/sample-delete';
+        window.location.href = url;
+    }
+
+    async function deleteData() {
+        if (!confirm('Удалить записи по ID?')) return;
+        const file = document.getElementById('deleteData').files[0];
+        if (!file) return alert('Выберите файл для удаления');
+
+        const form = new FormData();
+        form.append('file', file);
+
+        try {
+            const res = await fetch(API + '/delete-ids', { method: 'POST', body: form });
+            const json = await res.json();
+            document.getElementById('status').innerText = '🗑️ Удалено. Осталось записей: ' + json.total;
+            showToast(json.message || '✅ Загружено в GitHub', 'success');
+            document.getElementById('uploadData').files[0] = "";
+        } catch (err) {
+            document.getElementById('status').innerText = '❌ Ошибка удаления: ' + err.message;
+            showToast('❌ Ошибка загрузки: ' + err.message, 'error');
+            document.getElementById('uploadData').files[0] = "";
+        }
+    }
+
+    function downloadDb() {
+        window.location.href = API + '/download-db';
+    }
+
+    function showToast(message, type = 'success') {
+        const toast = document.getElementById('toast');
+        toast.innerText = message;
+        toast.className = `toast show ${type}`;
+
+        setTimeout(() => {
+            toast.className = 'toast'; // скрытие
+        }, 4000);
+    }
+
+    fetch(API + '/count')
+      .then(res => res.json())
+      .then(json => {
+        document.getElementById('status').innerText = '📊 Текущая база содержит: ' + json.total + ' записей';
+      });
+  </script>
+</body>
+</html>
