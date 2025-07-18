@@ -479,5 +479,13 @@
       "374979301"
     ],
     "rejectedIds": []
+  },
+  {
+    "ID": "437376799",
+    "EtalonPrice": null,
+    "matchedIds": [
+      "4120181"
+    ],
+    "rejectedIds": []
   }
 ]
