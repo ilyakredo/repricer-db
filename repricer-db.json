@@ -8,5 +8,11 @@
       "1111111"
     ],
     "rejectedIds": []
+  },
+  {
+    "ID": "370049005",
+    "EtalonPrice": 299,
+    "matchedIds": [],
+    "rejectedIds": []
   }
 ]
