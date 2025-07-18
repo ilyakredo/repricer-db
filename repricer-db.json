@@ -12,7 +12,11 @@
   {
     "ID": "370049005",
     "EtalonPrice": 299,
-    "matchedIds": [],
-    "rejectedIds": []
+    "matchedIds": [
+      "373808642"
+    ],
+    "rejectedIds": [
+      "166550957"
+    ]
   }
 ]
