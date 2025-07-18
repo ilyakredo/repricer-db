@@ -479,48 +479,5 @@
       "374979301"
     ],
     "rejectedIds": []
-  },
-  {
-    "ID": "111111",
-    "EtalonPrice": null,
-    "matchedIds": [
-      "22222333333"
-    ],
-    "rejectedIds": []
-  },
-  {
-    "ID": "222221",
-    "EtalonPrice": null,
-    "matchedIds": [
-      "121212.12123344"
-    ],
-    "rejectedIds": []
-  },
-  {
-    "ID": "222234",
-    "EtalonPrice": null,
-    "matchedIds": [
-      "434434",
-      "43435676"
-    ],
-    "rejectedIds": []
-  },
-  {
-    "ID": "121115566",
-    "EtalonPrice": null,
-    "matchedIds": [
-      "5511",
-      "56888"
-    ],
-    "rejectedIds": []
-  },
-  {
-    "ID": "2111245",
-    "EtalonPrice": null,
-    "matchedIds": [
-      "1221232",
-      "55445"
-    ],
-    "rejectedIds": []
   }
 ]
