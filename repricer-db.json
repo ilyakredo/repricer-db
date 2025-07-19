@@ -4866,5 +4866,61 @@
       "374481120"
     ],
     "rejectedIds": []
+  },
+  {
+    "ID": "440467798",
+    "EtalonPrice": null,
+    "matchedIds": [
+      "14097322"
+    ],
+    "rejectedIds": []
+  },
+  {
+    "ID": "222444038",
+    "EtalonPrice": null,
+    "matchedIds": [
+      "59730222"
+    ],
+    "rejectedIds": []
+  },
+  {
+    "ID": "222444039",
+    "EtalonPrice": null,
+    "matchedIds": [
+      "375018199"
+    ],
+    "rejectedIds": []
+  },
+  {
+    "ID": "154964107",
+    "EtalonPrice": null,
+    "matchedIds": [
+      "444785539"
+    ],
+    "rejectedIds": []
+  },
+  {
+    "ID": "151401531",
+    "EtalonPrice": null,
+    "matchedIds": [
+      "412811666"
+    ],
+    "rejectedIds": []
+  },
+  {
+    "ID": "440465485",
+    "EtalonPrice": null,
+    "matchedIds": [
+      "117921347"
+    ],
+    "rejectedIds": []
+  },
+  {
+    "ID": "440468727",
+    "EtalonPrice": null,
+    "matchedIds": [
+      "122224110"
+    ],
+    "rejectedIds": []
   }
 ]
