@@ -45185,7 +45185,7 @@
   },
   {
     "ID": "331015734",
-    "EtalonPrice": null,
+    "EtalonPrice": 401,
     "matchedIds": [
       "365542306"
     ],
@@ -128109,6 +128109,30 @@
   {
     "ID": "340601360",
     "EtalonPrice": 1085,
+    "matchedIds": [],
+    "rejectedIds": []
+  },
+  {
+    "ID": "331015730",
+    "EtalonPrice": 190,
+    "matchedIds": [],
+    "rejectedIds": []
+  },
+  {
+    "ID": "331015731",
+    "EtalonPrice": 570,
+    "matchedIds": [],
+    "rejectedIds": []
+  },
+  {
+    "ID": "331015733",
+    "EtalonPrice": 777,
+    "matchedIds": [],
+    "rejectedIds": []
+  },
+  {
+    "ID": "331015739",
+    "EtalonPrice": 570,
     "matchedIds": [],
     "rejectedIds": []
   }
