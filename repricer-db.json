@@ -128105,5 +128105,11 @@
       "3311720"
     ],
     "rejectedIds": []
+  },
+  {
+    "ID": "340601360",
+    "EtalonPrice": null,
+    "matchedIds": [],
+    "rejectedIds": []
   }
 ]
