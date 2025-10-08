@@ -27,7 +27,9 @@
     "matchedIds": [
       "274286312"
     ],
-    "rejectedIds": [],
+    "rejectedIds": [
+      "11111"
+    ],
     "seller": "АКВ",
     "date": "08.10.2025"
   },
