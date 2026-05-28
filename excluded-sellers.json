@@ -2,5 +2,9 @@
   {
     "excludedSellerId": "1111",
     "excludedSellerName": "Ntcn"
+  },
+  {
+    "excludedSellerId": "2222",
+    "excludedSellerName": "testtt"
   }
 ]
