@@ -6,5 +6,9 @@
   {
     "excludedSellerId": "3333",
     "excludedSellerName": "frr"
+  },
+  {
+    "excludedSellerId": "4444",
+    "excludedSellerName": "eepp"
   }
 ]
