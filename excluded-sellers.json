@@ -258,5 +258,109 @@
   {
     "excludedSellerId": "1111966",
     "excludedSellerName": "АЙ ЭМ ПРОЕКТ"
+  },
+  {
+    "excludedSellerId": "1117316",
+    "excludedSellerName": "Книгазин"
+  },
+  {
+    "excludedSellerId": "1203656",
+    "excludedSellerName": "RUGRAM"
+  },
+  {
+    "excludedSellerId": "1232669",
+    "excludedSellerName": "Компания Градъ"
+  },
+  {
+    "excludedSellerId": "1233797",
+    "excludedSellerName": "КнигаМаг"
+  },
+  {
+    "excludedSellerId": "1236029",
+    "excludedSellerName": "Useful box"
+  },
+  {
+    "excludedSellerId": "1237480",
+    "excludedSellerName": "Самый Сок"
+  },
+  {
+    "excludedSellerId": "1309352",
+    "excludedSellerName": "Новый книжный"
+  },
+  {
+    "excludedSellerId": "1321438",
+    "excludedSellerName": "Клякса"
+  },
+  {
+    "excludedSellerId": "1380169",
+    "excludedSellerName": "Книжный дискаунтер"
+  },
+  {
+    "excludedSellerId": "1389889",
+    "excludedSellerName": "Твоя Книга"
+  },
+  {
+    "excludedSellerId": "3936025",
+    "excludedSellerName": "KnigoBox"
+  },
+  {
+    "excludedSellerId": "3936826",
+    "excludedSellerName": "Кошурникова"
+  },
+  {
+    "excludedSellerId": "3940016",
+    "excludedSellerName": "Мой_Книжный"
+  },
+  {
+    "excludedSellerId": "3947743",
+    "excludedSellerName": "VoronovLab"
+  },
+  {
+    "excludedSellerId": "3949731",
+    "excludedSellerName": "IBRA"
+  },
+  {
+    "excludedSellerId": "3954290",
+    "excludedSellerName": "ГК МаксиДон"
+  },
+  {
+    "excludedSellerId": "3972008",
+    "excludedSellerName": "Книжный шкаф"
+  },
+  {
+    "excludedSellerId": "3973339",
+    "excludedSellerName": "Вольный Книжник"
+  },
+  {
+    "excludedSellerId": "3989268",
+    "excludedSellerName": "GooD Books"
+  },
+  {
+    "excludedSellerId": "4036533",
+    "excludedSellerName": "Танаис"
+  },
+  {
+    "excludedSellerId": "4039805",
+    "excludedSellerName": "АураКниг"
+  },
+  {
+    "excludedSellerId": "4065321",
+    "excludedSellerName": "Книжная комната"
+  },
+  {
+    "excludedSellerId": "4165116",
+    "excludedSellerName": "Библиотека Добрых Книг"
+  },
+  {
+    "excludedSellerId": "4238978",
+    "excludedSellerName": "Буки в Руки"
+  },
+  {
+    "excludedSellerId": "4310061",
+    "excludedSellerName": "КИСЕЛЕВСККНИГА"
+  },
+  {
+    "excludedSellerId": "4490929",
+    "excludedSellerName": "Универсам N1"
   }
 ]
