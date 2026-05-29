@@ -1,1 +1,262 @@
-[]
+[
+  {
+    "excludedSellerId": "348801",
+    "excludedSellerName": "ООО Книжный"
+  },
+  {
+    "excludedSellerId": "4223056",
+    "excludedSellerName": "Книжный Уголок 24"
+  },
+  {
+    "excludedSellerId": "4428998",
+    "excludedSellerName": "Книжный Диапазон 24"
+  },
+  {
+    "excludedSellerId": "366844",
+    "excludedSellerName": "Всё ок!"
+  },
+  {
+    "excludedSellerId": "4046182",
+    "excludedSellerName": "AlfaBook"
+  },
+  {
+    "excludedSellerId": "476218",
+    "excludedSellerName": "Талантико - книги, игры и развлечения!"
+  },
+  {
+    "excludedSellerId": "4041668",
+    "excludedSellerName": "VTB-Books"
+  },
+  {
+    "excludedSellerId": "64751",
+    "excludedSellerName": "T8BOOKS"
+  },
+  {
+    "excludedSellerId": "230530",
+    "excludedSellerName": "Подбери Себе"
+  },
+  {
+    "excludedSellerId": "85157",
+    "excludedSellerName": "VOLUMETRIC 24"
+  },
+  {
+    "excludedSellerId": "4258329",
+    "excludedSellerName": "ALEF BOOK"
+  },
+  {
+    "excludedSellerId": "4018899",
+    "excludedSellerName": "ИП Филиппов Кирилл Дмитриевич"
+  },
+  {
+    "excludedSellerId": "1313804",
+    "excludedSellerName": "Воронов"
+  },
+  {
+    "excludedSellerId": "4055541",
+    "excludedSellerName": "Бук-Кук"
+  },
+  {
+    "excludedSellerId": "3935791",
+    "excludedSellerName": "KnigaTopShop"
+  },
+  {
+    "excludedSellerId": "4482668",
+    "excludedSellerName": "ТД Томик"
+  },
+  {
+    "excludedSellerId": "4514194",
+    "excludedSellerName": "Hermes"
+  },
+  {
+    "excludedSellerId": "1419807",
+    "excludedSellerName": "Y-Sau"
+  },
+  {
+    "excludedSellerId": "1297425",
+    "excludedSellerName": "Alib"
+  },
+  {
+    "excludedSellerId": "565005",
+    "excludedSellerName": "Книжный терем"
+  },
+  {
+    "excludedSellerId": "494017",
+    "excludedSellerName": "SupeRMarkeT"
+  },
+  {
+    "excludedSellerId": "1290089",
+    "excludedSellerName": "VasilieV"
+  },
+  {
+    "excludedSellerId": "931704",
+    "excludedSellerName": "Читай-город"
+  },
+  {
+    "excludedSellerId": "1055247",
+    "excludedSellerName": "Торговые ряды"
+  },
+  {
+    "excludedSellerId": "4190816",
+    "excludedSellerName": "ООО Аромат Страниц"
+  },
+  {
+    "excludedSellerId": "1136945",
+    "excludedSellerName": "БУКИТИР"
+  },
+  {
+    "excludedSellerId": "1187866",
+    "excludedSellerName": "Без книг тяжко"
+  },
+  {
+    "excludedSellerId": "1302607",
+    "excludedSellerName": "dobroBUKI"
+  },
+  {
+    "excludedSellerId": "1367256",
+    "excludedSellerName": "Фамильная Библиотека"
+  },
+  {
+    "excludedSellerId": "4445589",
+    "excludedSellerName": "КонигаГрадъ"
+  },
+  {
+    "excludedSellerId": "1411661",
+    "excludedSellerName": "Книжный червь"
+  },
+  {
+    "excludedSellerId": "56524",
+    "excludedSellerName": "ТеКниги - ZeBooks"
+  },
+  {
+    "excludedSellerId": "250013845",
+    "excludedSellerName": "Книжный Атлас 24"
+  },
+  {
+    "excludedSellerId": "1312111",
+    "excludedSellerName": "FoxBoutique"
+  },
+  {
+    "excludedSellerId": "448875",
+    "excludedSellerName": "ФотоСтиль"
+  },
+  {
+    "excludedSellerId": "250063602",
+    "excludedSellerName": "BookLand 24"
+  },
+  {
+    "excludedSellerId": "4448063",
+    "excludedSellerName": "World of Art"
+  },
+  {
+    "excludedSellerId": "4420605",
+    "excludedSellerName": "MISTRO"
+  },
+  {
+    "excludedSellerId": "147819",
+    "excludedSellerName": "MARWIN"
+  },
+  {
+    "excludedSellerId": "4163429",
+    "excludedSellerName": "La'koMart"
+  },
+  {
+    "excludedSellerId": "578549",
+    "excludedSellerName": "COMBOOK"
+  },
+  {
+    "excludedSellerId": "42620",
+    "excludedSellerName": "Интернет магазин КНИЖНИЙ"
+  },
+  {
+    "excludedSellerId": "60510",
+    "excludedSellerName": "Ridero"
+  },
+  {
+    "excludedSellerId": "129145",
+    "excludedSellerName": "Хоттабыч"
+  },
+  {
+    "excludedSellerId": "133371",
+    "excludedSellerName": "Форева"
+  },
+  {
+    "excludedSellerId": "231503",
+    "excludedSellerName": "Селлер"
+  },
+  {
+    "excludedSellerId": "227354",
+    "excludedSellerName": "Буксир"
+  },
+  {
+    "excludedSellerId": "211819",
+    "excludedSellerName": "Живая легенда"
+  },
+  {
+    "excludedSellerId": "183763",
+    "excludedSellerName": "Книжная Лавка"
+  },
+  {
+    "excludedSellerId": "275413",
+    "excludedSellerName": "Мир Книг - ОРИГИНАЛЫ книг от Офиц. издательств"
+  },
+  {
+    "excludedSellerId": "314136",
+    "excludedSellerName": "Хэлтон"
+  },
+  {
+    "excludedSellerId": "320087",
+    "excludedSellerName": "Книжный магазин"
+  },
+  {
+    "excludedSellerId": "378018",
+    "excludedSellerName": "Грамотей"
+  },
+  {
+    "excludedSellerId": "473169",
+    "excludedSellerName": "Клякса"
+  },
+  {
+    "excludedSellerId": "515793",
+    "excludedSellerName": "Азбука товара"
+  },
+  {
+    "excludedSellerId": "524979",
+    "excludedSellerName": "GymGear"
+  },
+  {
+    "excludedSellerId": "544912",
+    "excludedSellerName": "BUY MOOD"
+  },
+  {
+    "excludedSellerId": "581596",
+    "excludedSellerName": "Чижик Игрушки и Подарки"
+  },
+  {
+    "excludedSellerId": "675752",
+    "excludedSellerName": "Одиссея"
+  },
+  {
+    "excludedSellerId": "683120",
+    "excludedSellerName": "Run161"
+  },
+  {
+    "excludedSellerId": "700547",
+    "excludedSellerName": "Аоника"
+  },
+  {
+    "excludedSellerId": "808839",
+    "excludedSellerName": "Канцелярия.Игрушки"
+  },
+  {
+    "excludedSellerId": "866575",
+    "excludedSellerName": "Пантера"
+  },
+  {
+    "excludedSellerId": "895253",
+    "excludedSellerName": "Comics23. Комиксы, манга, винил"
+  },
+  {
+    "excludedSellerId": "1111966",
+    "excludedSellerName": "АЙ ЭМ ПРОЕКТ"
+  }
+]
