@@ -362,5 +362,81 @@
   {
     "excludedSellerId": "4490929",
     "excludedSellerName": "Универсам N1"
+  },
+  {
+    "excludedSellerId": "250002957",
+    "excludedSellerName": "toys store"
+  },
+  {
+    "excludedSellerId": "250010422",
+    "excludedSellerName": "ООО Маркинес"
+  },
+  {
+    "excludedSellerId": "250019504",
+    "excludedSellerName": "Филин"
+  },
+  {
+    "excludedSellerId": "250025382",
+    "excludedSellerName": "Качественные Товары"
+  },
+  {
+    "excludedSellerId": "250028989",
+    "excludedSellerName": "АА Маркет"
+  },
+  {
+    "excludedSellerId": "250036125",
+    "excludedSellerName": "ЗВЕЗДА"
+  },
+  {
+    "excludedSellerId": "1134563",
+    "excludedSellerName": "РК"
+  },
+  {
+    "excludedSellerId": "1134733",
+    "excludedSellerName": "РедкиеКнигиНадежнаяУпаковка"
+  },
+  {
+    "excludedSellerId": "1150995",
+    "excludedSellerName": "Books King"
+  },
+  {
+    "excludedSellerId": "11541",
+    "excludedSellerName": "ЦЕНТРПОЛИГРАФ"
+  },
+  {
+    "excludedSellerId": "1173940",
+    "excludedSellerName": "books-spb.ru"
+  },
+  {
+    "excludedSellerId": "1186238",
+    "excludedSellerName": "MAXRESALE"
+  },
+  {
+    "excludedSellerId": "4397279",
+    "excludedSellerName": "ДоброMALL"
+  },
+  {
+    "excludedSellerId": "1265686",
+    "excludedSellerName": "SiriusShop"
+  },
+  {
+    "excludedSellerId": "1269623",
+    "excludedSellerName": "ТД ХОББИТЕКА"
+  },
+  {
+    "excludedSellerId": "1269911",
+    "excludedSellerName": "Подарки. ру"
+  },
+  {
+    "excludedSellerId": "1286724",
+    "excludedSellerName": "ХоумЛенд"
+  },
+  {
+    "excludedSellerId": "954521",
+    "excludedSellerName": "ИП Иманов"
+  },
+  {
+    "excludedSellerId": "4155648",
+    "excludedSellerName": "Люблю читать!"
   }
 ]
